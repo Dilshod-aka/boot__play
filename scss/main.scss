@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1240px !important;
+    max-width: 1240px !important;
+}
+
+.blue {
+    position: absolute;
+    right: 134.58%;
+    right: 0.65%;
+    top: 10.58%;
+    bottom: 340.25%;
+    background: linear-gradient(229.98deg, rgba(205, 139, 230, 0.2) 3.77%, rgba(75, 149, 255, 0.2) 72.58%);
+    transform: rotate(-360deg);
+}
+
+.yelow {
+
+    position: absolute;
+    right: 134.58%;
+    right: 0.65%;
+    top: 10.58%;
+    bottom: 20.25%;
+    background: linear-gradient(229.98deg, rgba(205, 139, 230, 0.2) 3.77%, rgba(75, 149, 255, 0.2) 72.58%);
+    transform: rotate(-360deg);
+}
+
+.com {
+    position: absolute;
+    left: 40.01%;
+    right: 34.76%;
+    top: 29.98%;
+    bottom: 0%;
+
+}
+
+.check {
+    margin: 200px 150px;
+
+    & h2 span {
+        color: #878AEA;
+    }
+
+    & .btn {
+        background-color: #878AEA;
+        color: #fff;
+    }
+}
+
+.com1 {
+    margin: 150px 50px;
+
+
+}
+
+.service {
+    text-align: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+
+    & a {
+        text-decoration: none;
+    }
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 20px;
+}
+
+.flex-mail {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+}
+
+.creative {
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 50px;
+
+    & .smart__text {
+        width: 30%;
+        line-height: 30px;
+        margin: 100px 30px;
+    }
+
+    & .btn1 {
+        color: #878AEA;
+        border: 2px solid #878AEA;
+        width: 20%;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+}
+
+.mobile__grid {
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px;
+
+    & img {
+        margin: 10px 10px;
+    }
+
+
+}
+
+.btn2 {
+    border: 2px solid #878AEA;
+    color: #878AEA;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.our__team {
+    margin: 50px 20px;
+
+
+    & .flex__team {
+        display: flex;
+        justify-content: center;
+
+        & img {
+            margin: 10px 10px;
+        }
+    }
+}
+
+.lane {
+    display: flex;
+    justify-content: center;
+
+    & .just {
+        margin: 30px 30px;
+        line-height: 30px;
+
+        & h3 {
+            color: #878AEA;
+        }
+    }
+
+    & .len {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.un {
+    width: 349.14px;
+    height: 261.85px;
+}
+
+.flex-mail {
+    display: flex;
+    margin: 50px 30px;
+
+    & .card1 {
+        width: 700px !important;
+        margin: 50px 30px !important;
+    }
+
+}
+
+.us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 10px;
+}
+
+.message {
+    
+    display: flex;
+
+    & .in {
+        
+    }
+}
+.message
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
